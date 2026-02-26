@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #718e97;   /* Soft light gray */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.todo-app {
+    background: #ffffff9d;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.todo-app h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;   /* Dark blue-gray */
+}
+
+/* Input Row */
+.row {
+    display: flex;
+    align-items: center;
+    background: #eef1f5;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.row input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Add Button */
+.row button {
+    border: none;
+    padding: 12px 25px;
+    background: #183c8a;   /* Professional Blue */
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.row button:hover {
+    background: #1e40af;
+}
+
+/* Task List */
+ul li {
+    list-style: none;
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 10px;
+    background: #f9fafb;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.2s ease;
+}
+
+ul li:hover {
+    background: #e5e7eb;
+}
+
+/* Task Text */
+.task-text {
+    flex: 1;
+    cursor: pointer;
+    color: #374151;
+}
+
+/* Completed Task */
+ul li.checked {
+    background: #64a784;   /* Soft green */
+    color: #065f46;
+    text-decoration: line-through;
+}
+
+/* Buttons */
+ul li button {
+    margin-left: 8px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+/* Edit Button */
+.edit-btn {
+    background: #8b5d0c;   /* Amber */
+    color: white;
+}
+
+.edit-btn:hover {
+    background: #d97706;
+}
+
+/* Delete Button */
+.delete-btn {
+    background: #860f0f;   /* Standard red */
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #b91c1c;
+}
