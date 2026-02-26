@@ -7,6 +7,7 @@ This project allows users to add, delete, and manage daily tasks efficiently wit
 
 The To-Do List application helps users organize tasks and improve productivity.
 The main objective of this project was to practice DOM manipulation, event handling, and local storage integration using Vanilla JavaScript.
+
 Features
 
 ➕ Add new tasks
