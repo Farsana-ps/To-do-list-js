@@ -1,4 +1,4 @@
-o-Do List Web Application
+To-Do List Web Application
 
 A responsive and interactive To-Do List application built using HTML, CSS, and JavaScript.
 This project allows users to add, delete, and manage daily tasks efficiently with a clean and user-friendly interface.
